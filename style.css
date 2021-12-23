@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Source+Code+Pro&display=swap");
+
+body {
+  background: linear-gradient(rgb(181, 46, 24), rgb(220, 100, 203));
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+p {
+  font-family: "Source Code Pro";
+  font-size: 1.4rem;
+}
+
+.gradient-colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.btn {
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 0.8rem 2.4rem;
+  border-radius: 1rem;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
